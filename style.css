@@ -349,6 +349,20 @@ template {
   width: 100vw;
 }
 
+#player {
+  width: 100px;
+  position: relative;
+}
+
+#player #lazer {
+  width: 2px;
+  height: 200px;
+  background-color: red;
+  position: absolute;
+  left: 52px;
+  top: -195px;
+}
+
 #player img {
   -webkit-user-select: none;
      -moz-user-select: none;

@@ -391,8 +391,18 @@ template {
 
 //  Player styles
 #player {
+    width: 100px;
+    position: relative;
 
-    
+    #lazer {
+        width: 2px;
+        height: 200px;
+        background-color: red;
+        position: absolute;
+        left: 52px;
+        top: -195px;
+    }
+
     img {
         user-select: none;
         width: 100px;
