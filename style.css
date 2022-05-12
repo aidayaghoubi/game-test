@@ -356,11 +356,13 @@ template {
 
 #player #lazer {
   width: 2px;
-  height: 200px;
+  height: 2000px;
   background-color: red;
   position: absolute;
   left: 52px;
-  top: -195px;
+  top: -1993px;
+  -webkit-box-shadow: 0 0 20px red;
+          box-shadow: 0 0 20px red;
 }
 
 #player img {
